@@ -1,0 +1,41 @@
+// Global rules
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    position: relative;
+    font-family: $family;
+    height: 100vh;
+}
+p {
+    font-size: $text_size;
+    color: $light_purple;
+}
+.title {
+    transition: .3s linear;
+    cursor: pointer;
+    &:hover {
+        color: $light_purple;
+    }
+}
+.align-c {
+    display: flex;
+    align-items: flex-start;
+}
+// Footer rules
+footer {
+    .attribution {
+        font-size: 11px;
+        text-align: center;
+        a {
+            color: hsl(228, 45%, 44%);
+        }
+    }
+}
